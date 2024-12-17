@@ -1,0 +1,127 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  padding: 20px;
+}
+
+.header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.header .navbar .space {
+  padding: 10px;
+  color: #000;
+  text-decoration: none;
+}
+
+.header .navbar .space:hover {
+  color: #292929e3;
+}
+
+.medicine-details .heading {
+  background-color: rgb(190, 190, 190);
+  text-align: center;
+  border: 1px solid #ddd;
+  color: gray;
+}
+
+.medicine-details .heading .text {
+  background-color: gray;
+  border: 1px solid #ddd;
+}
+
+.medicine-details,
+.generic-alternatives,
+.faqs {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f8f9fa;
+}
+
+.alternatives {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.alternatives .medicine-image {
+  height: 50px;
+  width: 50px;
+}
+
+.card {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+}
+
+.footer {
+  display: flex;
+  text-align: center;
+  padding: 30px;
+  border-top: 1px solid #ddd;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer-left {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-right {
+  display: flex;
+  flex: 2;
+  justify-content: space-between;
+}
+
+.footer-right h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer-right p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
